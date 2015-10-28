@@ -33,7 +33,7 @@ ul {
 #inner_container {
   margin: 0 auto;
   width: 960px;
-  background: #e3e3e3;
+  background: red;
 }
 
 /* some extra coding for divs that contain floated child divs and some universal classes */
