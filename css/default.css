@@ -1,0 +1,48 @@
+/*
+Theme Name: Enter Theme Name
+Developer: Aleksandar Gojkovic
+Developer URI: http://www.alex-at-work.com
+*/
+
+/* Generic Styles */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 13px;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+/* Container styling */
+#container {
+  position: relative;
+  min-height: 100%;
+}
+
+#inner_container {
+  margin: 0 auto;
+  width: 960px;
+  background: #e3e3e3;
+}
+
+/* some extra coding for divs that contain floated child divs and some universal classes */
+
+.group:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+
